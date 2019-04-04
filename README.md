@@ -1,24 +1,7 @@
-# README
+# 如何在mentions内通过@来列出user的信息：
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Learn how to add User at mentions (@mention) as custom attachments with Trix and ActionText。
 
-Things you may want to cover:
+* 博客：代码思路过程 https://www.cnblogs.com/chentianwei/p/10655122.html
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* 此app使用的rails版本是6.0.0.beta。
