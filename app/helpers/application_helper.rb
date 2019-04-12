@@ -7,4 +7,9 @@ module ApplicationHelper
       notice: "alert-info"
     }.stringify_keys[flash_type.to_s] || flash_type.to_s
   end
+
+  def onboarding_step_icon(step_completed)
+    color = step_completed ? "text-success" : "text-muted"
+    tag.i class: ['fas', "fa-check", color]
+  end
 end
